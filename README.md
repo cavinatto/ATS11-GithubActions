@@ -1,4 +1,4 @@
-# ATS11 GitHub Actions
+﻿# ATS11 GitHub Actions
 
 Este repositório contém uma API Python com FastAPI e um pipeline de Integração Contínua (CI) configurado com GitHub Actions.
 
@@ -35,26 +35,26 @@ Passos do workflow:
 
 1. Crie e ative seu ambiente virtual:
 
-```bash
+```powershell
 python -m venv .venv
 .\.venv\Scripts\activate
 ```
 
 2. Instale as dependências:
 
-```bash
+```powershell
 pip install -r requirements.txt
 ```
 
 3. Rode os testes:
 
-```bash
+```powershell
 pytest -q
 ```
 
 4. Opcional: execute a API localmente:
 
-```bash
+```powershell
 uvicorn main:app --reload
 ```
 
